@@ -7,16 +7,17 @@
     align-items: center;
     height: 44px;
     z-index: 100;
-    background-color: rgb(255, 252, 70);
+    background-color: rgb(255, 224, 0);
     position: relative;
 }
 .logo {
     width: 2.4rem;
-    margin-left: 1.6rem;
-   
+    margin-left: 1.6rem;   
+    transition: all 0.5s ease;
 }
 .logo:hover {
   cursor: pointer;
+  transform: rotate(360deg);
 }
 .container-burger {
     height: 20px;
@@ -66,16 +67,15 @@
     text-decoration: none;
     display: block;
     padding-left: 16px;
-    color: black;
+    color: white;
     transition: all 0.5s ease;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1.6rem;
     }
     
     .menu-burger ul li a:hover {
-      background-color: rgb(43, 192, 37, 0.8);     
-      color: white;
-      font-weight: bold;   
+      background-color: rgb(255, 224, 0);     
+      color: black;   
     }
   
   .option-margin {
@@ -91,7 +91,7 @@
   
   nav {
       width: 100%;
-      background-color: #fcff3a;
+      background-color: rgb(86, 177, 43);
       transition: all 1s;
       position: absolute;
       z-index: 50;
